@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.14
 
 LABEL org.opencontainers.image.source=https://github.com/tibeer/skopeo_worker
 LABEL org.opencontainers.image.description="skopeo worker"
