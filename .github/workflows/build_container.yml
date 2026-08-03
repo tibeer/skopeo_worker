@@ -20,7 +20,7 @@ jobs:
 
       - name: Build using buildah
         id: build
-        uses: redhat-actions/buildah-build@v2
+        uses: redhat-actions/buildah-build@v3
         with:
           image: ghcr.io/tibeer/skopeo_worker
           tags: ghcr.io/tibeer/skopeo_worker:latest
